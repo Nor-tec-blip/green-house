@@ -17,6 +17,33 @@
   overflow: hidden;
   box-shadow: 0 30px 80px rgba(0,0,0,.45);
 }
+.input-password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-password-wrapper input {
+  width: 100%;
+  padding-right: 44px; /* beri ruang untuk tombol mata */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  color: #9ca3af;       /* abu-abu saat tidak aktif */
+  transition: color 0.2s;
+}
+
+.toggle-password:hover {
+  color: #374151;       /* lebih gelap saat hover */
+}
 
 .login-card { padding: 48px 44px; }
 .login-brand { text-align: center; margin-bottom: 32px; }
