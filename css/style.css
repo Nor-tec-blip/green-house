@@ -198,3 +198,20 @@ img { max-width: 100%; display: block; }
   .nav-links li:not(:last-child) { display: none; }
   .hero-visual { height: 320px; }
 }
+
+/* Dark Mode */
+body.dark {
+  background: #0b1020;
+  color: #e2e8f0;
+}
+body.dark .navbar {
+  background: rgba(11,16,32,.85);
+  border-color: rgba(255,255,255,.08);
+}
+body.dark .feature-card,
+body.dark .about {
+  background: #11172c;
+  border-color: rgba(255,255,255,.08);
+}
+body.dark .text-soft,
+body.dark p { color: #94a3b8; }
